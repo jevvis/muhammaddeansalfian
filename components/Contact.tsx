@@ -70,19 +70,6 @@ export default function Contact() {
 
             <div className="flex flex-wrap items-center gap-4">
               <a
-                href="/CV_Muhammad_Dean_Salfian.pdf"
-                download
-                className="inline-flex items-center gap-2.5 px-7 py-4 rounded-full bg-[var(--foreground)] text-[var(--background)] text-sm font-bold tracking-wider hover:opacity-90 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-md"
-              >
-                {t('about.cv.link')}
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7 10 12 15 17 10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
-                </svg>
-              </a>
-
-              <a
                 href="mailto:deansalfian12@gmail.com"
                 className="inline-flex items-center gap-2 px-6 py-4 rounded-full border border-[var(--card-border)] bg-[var(--card-bg)] text-sm font-semibold hover:border-[var(--muted)] hover:bg-[var(--foreground)]/5 transition-all"
               >
